@@ -55,12 +55,6 @@
     return pQueue;
 }
 
-+(instancetype)queueWithManagedObjectContext:(NSManagedObjectContext *)context {
-    PersistentWorkQueue *pQueue = [[PersistentWorkQueue alloc] init];
-    pQueue.context = context;
-    return pQueue;
-}
-
 -(instancetype)init {
     if (self = [super init]) {
         // Initialize our properties
