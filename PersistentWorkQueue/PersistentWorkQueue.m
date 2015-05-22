@@ -151,6 +151,8 @@
 
 -(void)releaseObjectFromStorage:(NSManagedObject *)object {
     [self.context deleteObject:object];
+    if ([self.blacklist containsObject:object])
+        [self.blacklist removeObject:object];
 }
 
 @end
