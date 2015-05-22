@@ -116,9 +116,7 @@
     NSAssert(numberOfObjects > 0, @"Need number of objects to fetch greater than 0");
     __block NSArray *results;
     dispatch_sync(self.readQueue, ^{
-        NSLog(@"calling _dequeue");
         results = [self _dequeueObjectsForEntityName:entityName numberOfObjects:numberOfObjects];
-        NSLog(@"Returning with results = %@", results);
     });
     return results;
 }
