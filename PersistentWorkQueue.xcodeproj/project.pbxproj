@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DE07FC51B0E950B0066DC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE07FC41B0E950B0066DC30 /* main.m */; };
+		8DE07FC81B0E950B0066DC30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE07FC71B0E950B0066DC30 /* AppDelegate.m */; };
+		8DE07FCB1B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DE07FC91B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodeld */; };
+		8DE07FD31B0E950B0066DC30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE07FD21B0E950B0066DC30 /* Images.xcassets */; };
+		8DE07FE21B0E950B0066DC30 /* PersistentWorkQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE07FE11B0E950B0066DC30 /* PersistentWorkQueueTests.m */; };
+		8DE07FED1B0E951C0066DC30 /* PersistentWorkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE07FEC1B0E951C0066DC30 /* PersistentWorkQueue.m */; };
+		8DE07FF01B0EA3670066DC30 /* Thing.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE07FEF1B0EA3670066DC30 /* Thing.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DE07FDC1B0E950B0066DC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DE07FB71B0E950A0066DC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DE07FBE1B0E950B0066DC30;
+			remoteInfo = PersistentWorkQueue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DE07FBF1B0E950B0066DC30 /* PersistentWorkQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersistentWorkQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE07FC31B0E950B0066DC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE07FC41B0E950B0066DC30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DE07FC61B0E950B0066DC30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DE07FC71B0E950B0066DC30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DE07FCA1B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersistentWorkQueue.xcdatamodel; sourceTree = "<group>"; };
+		8DE07FD21B0E950B0066DC30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DE07FDB1B0E950B0066DC30 /* PersistentWorkQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersistentWorkQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DE07FE01B0E950B0066DC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE07FE11B0E950B0066DC30 /* PersistentWorkQueueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersistentWorkQueueTests.m; sourceTree = "<group>"; };
+		8DE07FEB1B0E951C0066DC30 /* PersistentWorkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersistentWorkQueue.h; sourceTree = "<group>"; };
+		8DE07FEC1B0E951C0066DC30 /* PersistentWorkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersistentWorkQueue.m; sourceTree = "<group>"; };
+		8DE07FEE1B0EA3670066DC30 /* Thing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thing.h; sourceTree = "<group>"; };
+		8DE07FEF1B0EA3670066DC30 /* Thing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thing.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DE07FBC1B0E950B0066DC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE07FD81B0E950B0066DC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DE07FB61B0E950A0066DC30 = {
+			isa = PBXGroup;
+			children = (
+				8DE07FC11B0E950B0066DC30 /* PersistentWorkQueue */,
+				8DE07FDE1B0E950B0066DC30 /* PersistentWorkQueueTests */,
+				8DE07FC01B0E950B0066DC30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE07FC01B0E950B0066DC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DE07FBF1B0E950B0066DC30 /* PersistentWorkQueue.app */,
+				8DE07FDB1B0E950B0066DC30 /* PersistentWorkQueueTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DE07FC11B0E950B0066DC30 /* PersistentWorkQueue */ = {
+			isa = PBXGroup;
+			children = (
+				8DE07FC61B0E950B0066DC30 /* AppDelegate.h */,
+				8DE07FC71B0E950B0066DC30 /* AppDelegate.m */,
+				8DE07FEE1B0EA3670066DC30 /* Thing.h */,
+				8DE07FEF1B0EA3670066DC30 /* Thing.m */,
+				8DE07FEB1B0E951C0066DC30 /* PersistentWorkQueue.h */,
+				8DE07FEC1B0E951C0066DC30 /* PersistentWorkQueue.m */,
+				8DE07FD21B0E950B0066DC30 /* Images.xcassets */,
+				8DE07FC91B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodeld */,
+				8DE07FC21B0E950B0066DC30 /* Supporting Files */,
+			);
+			path = PersistentWorkQueue;
+			sourceTree = "<group>";
+		};
+		8DE07FC21B0E950B0066DC30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DE07FC31B0E950B0066DC30 /* Info.plist */,
+				8DE07FC41B0E950B0066DC30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DE07FDE1B0E950B0066DC30 /* PersistentWorkQueueTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DE07FE11B0E950B0066DC30 /* PersistentWorkQueueTests.m */,
+				8DE07FDF1B0E950B0066DC30 /* Supporting Files */,
+			);
+			path = PersistentWorkQueueTests;
+			sourceTree = "<group>";
+		};
+		8DE07FDF1B0E950B0066DC30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DE07FE01B0E950B0066DC30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DE07FBE1B0E950B0066DC30 /* PersistentWorkQueue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE07FE51B0E950B0066DC30 /* Build configuration list for PBXNativeTarget "PersistentWorkQueue" */;
+			buildPhases = (
+				8DE07FBB1B0E950B0066DC30 /* Sources */,
+				8DE07FBC1B0E950B0066DC30 /* Frameworks */,
+				8DE07FBD1B0E950B0066DC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersistentWorkQueue;
+			productName = PersistentWorkQueue;
+			productReference = 8DE07FBF1B0E950B0066DC30 /* PersistentWorkQueue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DE07FDA1B0E950B0066DC30 /* PersistentWorkQueueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DE07FE81B0E950B0066DC30 /* Build configuration list for PBXNativeTarget "PersistentWorkQueueTests" */;
+			buildPhases = (
+				8DE07FD71B0E950B0066DC30 /* Sources */,
+				8DE07FD81B0E950B0066DC30 /* Frameworks */,
+				8DE07FD91B0E950B0066DC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DE07FDD1B0E950B0066DC30 /* PBXTargetDependency */,
+			);
+			name = PersistentWorkQueueTests;
+			productName = PersistentWorkQueueTests;
+			productReference = 8DE07FDB1B0E950B0066DC30 /* PersistentWorkQueueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DE07FB71B0E950A0066DC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = McAtee;
+				TargetAttributes = {
+					8DE07FBE1B0E950B0066DC30 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					8DE07FDA1B0E950B0066DC30 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 8DE07FBE1B0E950B0066DC30;
+					};
+				};
+			};
+			buildConfigurationList = 8DE07FBA1B0E950A0066DC30 /* Build configuration list for PBXProject "PersistentWorkQueue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DE07FB61B0E950A0066DC30;
+			productRefGroup = 8DE07FC01B0E950B0066DC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DE07FBE1B0E950B0066DC30 /* PersistentWorkQueue */,
+				8DE07FDA1B0E950B0066DC30 /* PersistentWorkQueueTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DE07FBD1B0E950B0066DC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE07FD31B0E950B0066DC30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE07FD91B0E950B0066DC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DE07FBB1B0E950B0066DC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE07FCB1B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodeld in Sources */,
+				8DE07FC81B0E950B0066DC30 /* AppDelegate.m in Sources */,
+				8DE07FED1B0E951C0066DC30 /* PersistentWorkQueue.m in Sources */,
+				8DE07FF01B0EA3670066DC30 /* Thing.m in Sources */,
+				8DE07FC51B0E950B0066DC30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE07FD71B0E950B0066DC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE07FE21B0E950B0066DC30 /* PersistentWorkQueueTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DE07FDD1B0E950B0066DC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DE07FBE1B0E950B0066DC30 /* PersistentWorkQueue */;
+			targetProxy = 8DE07FDC1B0E950B0066DC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8DE07FE31B0E950B0066DC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DE07FE41B0E950B0066DC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DE07FE61B0E950B0066DC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersistentWorkQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DE07FE71B0E950B0066DC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersistentWorkQueue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DE07FE91B0E950B0066DC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersistentWorkQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersistentWorkQueue.app/PersistentWorkQueue";
+			};
+			name = Debug;
+		};
+		8DE07FEA1B0E950B0066DC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersistentWorkQueueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersistentWorkQueue.app/PersistentWorkQueue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DE07FBA1B0E950A0066DC30 /* Build configuration list for PBXProject "PersistentWorkQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE07FE31B0E950B0066DC30 /* Debug */,
+				8DE07FE41B0E950B0066DC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DE07FE51B0E950B0066DC30 /* Build configuration list for PBXNativeTarget "PersistentWorkQueue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE07FE61B0E950B0066DC30 /* Debug */,
+				8DE07FE71B0E950B0066DC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8DE07FE81B0E950B0066DC30 /* Build configuration list for PBXNativeTarget "PersistentWorkQueueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE07FE91B0E950B0066DC30 /* Debug */,
+				8DE07FEA1B0E950B0066DC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DE07FC91B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DE07FCA1B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodel */,
+			);
+			currentVersion = 8DE07FCA1B0E950B0066DC30 /* PersistentWorkQueue.xcdatamodel */;
+			path = PersistentWorkQueue.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DE07FB71B0E950A0066DC30 /* Project object */;
+}
