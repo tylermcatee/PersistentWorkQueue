@@ -45,6 +45,16 @@
 
 #pragma mark - Initialization
 
++(instancetype)sharedQueueWithmanagedObjectContext:(NSManagedObjectContext *)context {
+    static PersistentWorkQueue *pQueue;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        pQueue = [[PersistentWorkQueue alloc] init];
+        pQueue.context = context;
+    });
+    return pQueue;
+}
+
 +(instancetype)queueWithManagedObjectContext:(NSManagedObjectContext *)context {
     PersistentWorkQueue *pQueue = [[PersistentWorkQueue alloc] init];
     pQueue.context = context;

@@ -13,7 +13,7 @@
 
 @property (nonatomic, readonly) NSManagedObjectContext *context;
 
-+(instancetype)queueWithManagedObjectContext:(NSManagedObjectContext *)context;
++(instancetype)sharedQueueWithmanagedObjectContext:(NSManagedObjectContext *)context;
 -(void)enqueueNewObjectForEntityName:(NSString *)entityName withProperties:(NSDictionary *)properties;
 -(id)dequeueObjectForEntityName:(NSString *)entityName;
 -(NSArray *)dequeueObjectsForEntityName:(NSString *)entityName numberOfObjects:(NSInteger)numberOfObjects;

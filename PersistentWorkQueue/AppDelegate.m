@@ -37,10 +37,7 @@
 }
 
 -(PersistentWorkQueue *)workQueue {
-    if (!_workQueue) {
-        _workQueue = [PersistentWorkQueue queueWithManagedObjectContext:self.managedObjectContext];
-    }
-    return _workQueue;
+    return [PersistentWorkQueue sharedQueueWithmanagedObjectContext:self.managedObjectContext];
 }
 
 -(void)setupThreads {
